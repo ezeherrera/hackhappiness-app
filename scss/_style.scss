@@ -113,6 +113,30 @@ $greyShape: #ccc;
   color: $assertive;
 }
 
+/** Styling Agree to terms input **/
+.item#agree-to-terms{
+  background: transparent;
+  border: none;
+  color: #6c6c6c;
+
+  a{
+    color: $assertive;
+  }
+}
+/** Styling Terms Content **/
+#terms-content{
+  padding: 16px 20px;
+
+  p{
+    color:#6c6c6c;
+    font-size: 12px;
+
+    strong{
+      color: $darkBlack;
+    }
+  }
+}
+
 .bar.bar-header {
   background: $happyButton;
   .title {

@@ -167,6 +167,10 @@ angular.module('app.controllers', ['uiGmapgoogle-maps'])
     $scope.auth.setAuthAction('register');
     $scope.auth.modal.show();
   };
+  $scope.terms = function() {
+    $scope.auth.setAuthAction('terms');
+    $scope.auth.modal.show();
+  };
   $scope.closeAuth = function(){
     $scope.auth.modal.hide();
   };
